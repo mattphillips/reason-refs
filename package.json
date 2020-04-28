@@ -1,0 +1,19 @@
+{
+  "name": "reason-refs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Matt Phillips <matt@mattphillips.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.5.1",
+    "bs-platform": "^7.2.2",
+    "jest": "^25.4.0"
+  },
+  "dependencies": {
+    "bs-bastet": "^1.2.5",
+    "relude": "^0.62.0"
+  },
+  "scripts": {
+    "test": "bsb -make-world && jest"
+  }
+}
